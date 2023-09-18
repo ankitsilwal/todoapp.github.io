@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./20230918114927_[fpdl.in]_3d-illustration-financial-book_539652-147_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Define a keyframe animation */
+@keyframes scaleBackground {
+  0% {
+    background-size: cover;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+/* Apply the animation to the body element */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./20230918114927_[fpdl.in]_3d-illustration-financial-book_539652-147_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: scaleBackground 5s infinite alternate; /* Apply the animation with a 5s duration */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
